@@ -1,5 +1,5 @@
 import React from 'react'
-import categories from '../data/Categories';
+import categories from '../data/categories.js';
 
 function ShopCategories() {
   return (

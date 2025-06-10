@@ -10,7 +10,7 @@
 }
 
 .bg-img{
-    background-image: url(bg.png);
+    background-image: url(.//assets/image/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

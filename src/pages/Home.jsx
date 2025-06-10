@@ -4,6 +4,7 @@ import ShopCategories from '../components/ShopCategories'
 import BestDealProducts from '../components/BestDealProducts'
 import GetDiscount from '../components/GetDiscount'
 import PopularProducts from '../components/PopularProducts'
+import HeroTow from '../components/HeroTow'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <BestDealProducts/>
       <GetDiscount/>
       <PopularProducts/>
+      <HeroTow/>
     </div>
   )
 }

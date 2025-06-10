@@ -17,15 +17,12 @@ function Navbar() {
         {name: 'About', to:'/about'}
     ]
   return (
-    <div className='container mx-auto lg:px-[128px] py-1 flex justify-between px-3'>
+    <div className='container mx-auto lg:px-[85px] flex justify-between'>
         {/* logo & menu part */}
         <div>
             <div className='flex items-center justify-between w-[50%]'>
-                <div className='flex items-center me-5'>
-                    <div className='w-[50px] h-[50px]'>
-                        <img src="logo.png" alt="" />
-                    </div>
-                    <p className='ps-2 text-2xl  font-black'>ShopCart</p>
+                <div className='flex items-center lg:me-[240px]'>
+                    <p className='text-3xl  font-black p-3 lg:ms-8'>ShopCart</p>
                 </div>
                 {/* Meun */}
                 <ul className='hidden lg:flex ms-[20px]'>
@@ -39,7 +36,7 @@ function Navbar() {
                     }
                 </ul>
                 {/* Serch & acc part */}
-                <div className='justify-between w-[50%]  hidden lg:flex'>
+                <div className='justify-between w-[50%]  hidden lg:flex ms-[45px]'>
                     <form action="" className='px-5'>
                         <div className='flex items-center border border-slate-500 rounded-lg p-1'>
                             <input type="text" placeholder='Search'  className='outline-0'/>
@@ -49,7 +46,7 @@ function Navbar() {
                         </div>
                     </form>
                     {/* userAcc */}
-                    <div className='flex items-center ps-[px]'>
+                    <div className='flex items-center'>
                         <NavLink className="flex items-center mx-3">
                             <FaUserCircle className='me-2 text-2xl'/>
                             <span>Account</span>
@@ -64,7 +61,7 @@ function Navbar() {
             </div>
         </div>
         <button className='block lg:hidden' onClick={()=>setMenuOpen(!menuOpen)}>
-                {menuOpen ? <IoClose className='text-3xl'/> : <IoMenu className='text-3xl'/>}
+                {menuOpen ? <IoClose className='text-4xl me-2'/> : <IoMenu className='text-4xl me-2'/>}
         </button>
 
         <div className={` ${menuOpen ? 'opacity-100 translate-16 pointer-events-auto' : 'opacity-0 -translate-14 pointer-events-none'}

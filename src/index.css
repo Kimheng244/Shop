@@ -15,10 +15,14 @@
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
-.bg1-img{
+.bg2-img{
     background-image: url(.//assets/image/bg3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.bg1-img{
+    background-image: url(.//assets/image/card.png);
+    background-size: cover;
 }
 

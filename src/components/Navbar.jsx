@@ -21,7 +21,7 @@ function Navbar() {
         {/* logo & menu part */}
         <div>
             <div className='flex items-center justify-between w-[50%]'>
-                <div className='flex items-center lg:me-[240px]'>
+                <div className='flex items-center '>
                     <p className='text-3xl  font-black p-3 lg:ms-8'>ShopCart</p>
                 </div>
                 {/* Meun */}

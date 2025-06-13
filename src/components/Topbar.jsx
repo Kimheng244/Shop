@@ -4,7 +4,7 @@ function Topbar() {
   return (
     <div>
             <div className=' bg-slate-900 py-1'>
-          <div className='container lg:px-[128px] mx-auto text-white flex justify-between'>
+          <div className='container lg:px-[128px] mx-auto text-white flex justify-between '>
             <p>+855 069 55 99 80</p>
             <p className='hidden lg:flex'>Get 50% Off on Selected Items &emsp;|&emsp;Shop Now</p>
             <div>

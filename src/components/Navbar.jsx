@@ -17,7 +17,7 @@ function Navbar() {
         {name: 'About', to:'/about'}
     ]
   return (
-    <div className='container mx-auto lg:px-[85px] flex justify-between'>
+    <div className='container mx-auto lg:px-[85px] flex justify-between '>
         {/* logo & menu part */}
         <div>
             <div className='flex items-center justify-between w-[50%]'>

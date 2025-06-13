@@ -8,6 +8,9 @@ import HeroTow from '../components/HeroTow'
 import Brand from '../components/Brand'
 import BestDeals from '../components/BestDeals'
 import CashBack from '../components/CashBack'
+import Footers from '../components/Footers'
+import TrendingProduct from '../components/TrendingProduct'
+
 
 function Home() {
   return (
@@ -21,6 +24,8 @@ function Home() {
       <Brand/>
       <BestDeals/>
       <CashBack/>
+      <TrendingProduct/>
+      <Footers/>
     </div>
   )
 }

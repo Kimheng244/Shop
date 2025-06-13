@@ -10,7 +10,7 @@
 }
 
 .bg-img{
-    background-image: url(.//assets/image/bg2.png);
+    background-image: url(.//assets/image/bg5.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -23,6 +23,14 @@
 }
 .bg1-img{
     background-image: url(.//assets/image/card.png);
+    background-size: cover;
+}
+.logo{
+    background-image: url(./assets/image/logo.png);
+    background-size: cover;
+}
+.card{
+    background-image: url(./assets/image/cart.png);
     background-size: cover;
 }
 

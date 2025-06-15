@@ -4,7 +4,7 @@ import { SiElectronbuilder, SiEllo } from 'react-icons/si'
 
 function Footers() {
   return (
-    <div className='w-full lg:h-[80vh] h-[40px] '>
+    <div className='w-full lg:h-[80vh] h-[40px] 'data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <div className='container flex lg:px-[85px]'>
                 <div className=' lg:pt-3 pt-[142%] md:p-[70px]  lg:w-[100%] lg:justify-between lg:flex'>
                         <div>

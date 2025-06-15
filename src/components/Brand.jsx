@@ -14,7 +14,7 @@ function Brand() {
 ];
 
   return (
-      <div className='container flex mx-auto lg:px-[85px]'>
+      <div className='container flex mx-auto lg:px-[85px]' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
         <div className="p-5  container">
         <h1 className="text-3xl font-bold ">Available Stores</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

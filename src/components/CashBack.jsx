@@ -2,7 +2,7 @@ import React from 'react'
 
 function CashBack() {
   return (
-    <div className='w-full h-[50vh] bg-slate-300'>
+    <div className='w-full h-[50vh] bg-slate-300' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
       <div className="container h-full  lg:px-[128px] mx-auto items-center flex justify-between">
         <div className='w-full md:w-[60%] lg:w-[38%] mx-10'>
              <h1 className='font-bold text-4xl md:text-6xl text-black my-4'>

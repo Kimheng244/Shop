@@ -6,7 +6,7 @@ import { IoMdHeartEmpty } from 'react-icons/io'
 function BestDeals() {
     const {items,isLoadinng} = useContext(ProductContext)
   return (
-    <div className='container mx-auto lg:px-[85px] p-4'>
+    <div className='container mx-auto lg:px-[85px] p-4'  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
       <h1 className='text-2xl font-black'>Todays Best Deals for you!</h1>
       <div className='my-5 '>
         <button className="btn btn-dash  btn-primary rounded-full mx-4 px-7   ">Default</button>

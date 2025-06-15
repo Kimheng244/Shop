@@ -10,7 +10,7 @@ function About() {
 ];
 
   return (
-       <div className=" text-white shadow-lg py-20 px-4 md:px-8 lg:px-[128px]">
+       <div className=" text-white shadow-lg py-20 px-4 md:px-8 lg:px-[128px]"  data-aos="zoom-in" data-aos-duration="1000">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold mb-2 text-black">About Us</h1>
         <p className="text-black">Home / About Us</p>

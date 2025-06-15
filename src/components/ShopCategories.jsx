@@ -6,7 +6,7 @@ function ShopCategories() {
 
   return (
     <div className='w-full mt-4 lg:mt-24'>
-        <div className="container px-4 lg:px-[128px] mx-auto">
+        <div className="container px-4 lg:px-[128px] mx-auto" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className='text-3xl font-bold mb-5'>Shop Our Top Categories</h1>
 
             <div className="flex flex-wrap gap-2 justify-between">

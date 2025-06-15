@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className='w-full h-[70vh] bg-img'>
       <div className="container h-full px-4 lg:px-[128px] mx-auto items-center flex">
-        <div className='w-full md:w-[60%] lg:w-[38%]'>
+        <div className='w-full md:w-[60%] lg:w-[38%]' data-aos="fade-right" data-aos-duration="1000">
              <h1 className='font-bold text-4xl md:text-6xl text-white my-4'>
                 Shopping and 
                 department store.

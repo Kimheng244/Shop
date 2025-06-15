@@ -2,7 +2,8 @@ import React from 'react'
 
 function GetDiscount() {
   return (
-    <div className='w-full mt-4 lg:mt-24'>
+    <div className='w-full mt-4 lg:mt-24' data-aos="fade-up"
+     data-aos-duration="1000">
       <div className='container px-4 lg:px-[128px] mx-auto'>
         <h1 className='text-3xl font-bold mb-5'>Get Up to 70% off</h1>
         <div className='flex  flex-wrap justify-between'>

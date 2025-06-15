@@ -7,7 +7,7 @@ import ProductContext from '../Store/ProductContext';
 function BestDealProducts() {
     const {items,isLoading} = useContext(ProductContext)
   return (
-    <div className='w-full mt-4 lg:mt-24'>
+    <div className='w-full mt-4 lg:mt-24' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
       <div className='container px-4 lg:px-[128px] mx-auto'>
         <h1 className='text-xl font-bold mb-5 lg:text-3xl lg:text-center'>Today Best Deals for you!</h1>
         <div className='overflow-x-auto mb-5'>

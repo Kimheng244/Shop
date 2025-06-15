@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroTow() {
   return (
-    <div className='w-full h-[70vh] bg2-img'>
+    <div className='w-full h-[70vh] bg2-img' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
       <div className="container h-full px-4 lg:px-[128px] mx-auto items-center flex justify-end">
         <div className='w-full md:w-[60%] lg:w-[38%] bg-gray-600 p-10'>
              <h1 className='font-bold text-4xl md:text-6xl text-white my-4'>

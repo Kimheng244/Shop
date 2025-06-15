@@ -43,7 +43,7 @@ function Service() {
 ];
 
   return (
-      <div className="py-16 px-4 max-w-6xl mx-auto text-center">
+      <div className="py-16 px-4 max-w-6xl mx-auto text-center"  data-aos="zoom-in" data-aos-duration="1000">
       <div className="mb-12">
         <h2 className="text-4xl font-bold mb-2">Services we provide</h2>
         <p className="text-gray-500">

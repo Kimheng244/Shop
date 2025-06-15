@@ -2,7 +2,7 @@ import React from 'react'
 
 function TrendingProduct() {
   return (
-    <div className='w-full h-[65vh] md:h-[50vh] lg:h-[80vh] '>
+    <div className='w-full h-[65vh] md:h-[50vh] lg:h-[80vh] ' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
       <div className='container mx-auto lg:px-[85px]'>
           <h1 className='text-black font-bold text-3xl pt-10 ps-3 lg:py-5'>Trending Products for you</h1>
           <div className='flex gap-3 flex-wrap px-4'>

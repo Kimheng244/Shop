@@ -3,7 +3,7 @@ import { FaMapMarked, FaPhoneAlt, FaRunning } from 'react-icons/fa'
 
 function Contact() {
   return (
-    <div className="bg-gray-100 py-10 px-5">
+    <div className="bg-gray-100 py-10 px-5" data-aos="zoom-in" data-aos-duration="1000">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-2">Contact Us</h2>
         <p className="text-gray-700 mb-6">Any questions or remarks? Just write us a message!</p>

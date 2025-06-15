@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skeltaion() {
   return (
-    <div className='w-[49%] md:w-[32] shrink-0 animate-pulse'>
+    <div className='w-[49%] md:w-[32] shrink-0 animate-pulse' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
         <div className='w-full h-[350px] bg-gray-300 rounded-lg overflow-hidden relative'>
             <div className='btn btn-circle absolute end-3 top-3 bg-gray-400'></div>
             <div className='w-full h-full bg-gray-300 '></div>

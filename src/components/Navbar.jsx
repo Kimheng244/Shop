@@ -65,7 +65,7 @@ function Navbar() {
         </button>
 
         <div className={` ${menuOpen ? 'opacity-100 translate-16 pointer-events-auto' : 'opacity-0 -translate-14 pointer-events-none'}
-            w-[90%] lg:hidden  absolute duration-300
+            w-[90%] lg:hidden  absolute z-50 duration-300
             left-1/2 transform -translate-x-1/2 p-4 shadow-md rounded-2xl bg-white
             
         `}>
